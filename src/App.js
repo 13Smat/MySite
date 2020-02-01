@@ -21,14 +21,15 @@ function App() {
         <p>
           I am a{" "}
           <strong>Western Carolina University Computer Science Graduate</strong>{" "}
-          currently working at VanNoppen Marketing as a{" "}
+          currently working at <a href="https://vannoppen.co">VanNoppen Marketing</a> as a{" "}
           <strong>full stack developer</strong>. I create and assist in creating
           complex <strong>custom software applications</strong> for our clients
           website. I spend my free time doing small projects like this one so I
-          can continue to expand my knowledge in the{" "}
-          <strong>Web Development Industry</strong>. I also have experience
+          can continue to expand my knowledge. I also have experience
           developing in
-          <strong> Python, Java, JavaScript, CSS, and PosgreSQL.</strong>
+          <strong> Python, Java, JavaScript, CSS, GO, bash scripting, HTML, and PosgreSQL. </strong>
+          I do work as a freelance SquareSpace developer so
+          if you want to get in contact with me my email is down below.
         </p>
       </section>
       <section>
@@ -39,13 +40,14 @@ function App() {
           web developer. 
         </p>
         <p>
-          Before that I work as a table games dealer, specificaly blackjack, at
+          Before that I work as a table games dealer, specifically blackjack, at
           the{" "}
           <a href="https://www.caesars.com/harrahs-cherokee">
             Harrah's Cherokee Casino
           </a>
           .
         </p>
+        <p>I also had a great time being a part-time security guard with Axis Security.</p>
       </section>
       <section>
         <h2>Contact Information</h2>
@@ -58,7 +60,6 @@ function App() {
         </p>
       </section>
       <footer className="App-footer">
-        Whatever Text I want<br />
         <ScrollToTop />
       </footer>
     </div>
