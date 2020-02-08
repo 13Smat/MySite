@@ -41,6 +41,12 @@ section a {
   color: #aaaaaa;
 }
 
+.Nav-item{
+  padding: .75em;
+  color: white;
+  font-size: 1em;
+}
+
 .App-footer {
   color: black;
   font-size: 2em;

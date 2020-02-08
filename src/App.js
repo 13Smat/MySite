@@ -13,9 +13,9 @@ function App() {
             return <span></span>;
           })}
       </div>
-      <AnchorLink href="#About_Me">About Me</AnchorLink>
-      <AnchorLink href="#Recent_Work">Work History</AnchorLink>
-      <AnchorLink href="#Contact_Info">Contact Info</AnchorLink>
+      <AnchorLink href="#About_Me" className="Nav-item">About Me</AnchorLink>
+      <AnchorLink href="#Recent_Work" className="Nav-item">Work History</AnchorLink>
+      <AnchorLink href="#Contact_Info" className="Nav-item">Contact Info</AnchorLink>
       <header className="App-header">
         <h1>Full Stack Developer located in Morganton, NC</h1>
         <h2>Andy Silver</h2>
