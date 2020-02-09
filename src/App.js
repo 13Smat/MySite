@@ -13,9 +13,11 @@ function App() {
             return <span></span>;
           })}
       </div>
-      <AnchorLink href="#About_Me" className="Nav-item">About Me</AnchorLink>
-      <AnchorLink href="#Recent_Work" className="Nav-item">Work History</AnchorLink>
-      <AnchorLink href="#Contact_Info" className="Nav-item">Contact Info</AnchorLink>
+      <div className="Nav-bar">
+        <AnchorLink href="#About_Me" className="Nav-item hvr-shrink">About Me</AnchorLink>
+        <AnchorLink href="#Recent_Work" className="Nav-item hvr-shrink">Work History</AnchorLink>
+        <AnchorLink href="#Contact_Info" className="Nav-item hvr-shrink">Contact Info</AnchorLink>
+      </div>
       <header className="App-header">
         <h1>Full Stack Developer located in Morganton, NC</h1>
         <h2>Andy Silver</h2>
