@@ -44,7 +44,7 @@ function App() {
           web developer. 
         </p>
         <p>
-          Before that I work as a table games dealer, specifically blackjack, at
+          Before that I worked as a table games dealer, specifically blackjack, at
           the{" "}
           <a href="https://www.caesars.com/harrahs-cherokee">
             Harrah's Cherokee Casino
