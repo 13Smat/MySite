@@ -2,16 +2,37 @@ import React from "react";
 import "./App.css";
 import ScrollToTop from "./ScrollToTop";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Particles from 'react-particles-js';
 
+
+const particalOpt = {
+  particles:{
+    number:{
+      value: 100,
+      density: {
+        enable: true,
+        value_area: 800
+      }
+    },
+    line_linked:{
+      distance: 100,
+      opacity: .2,
+      width: 2,
+    },
+    move:{
+      speed: 1,
+      bounce: true,
+    }
+  }
+}
 function App() {
+  
   return (
     <div className="App">
       <div className="background">
-        {Array(49)
-          .fill()
-          .map(_ => {
-            return <span></span>;
-          })}
+        <Particles 
+        params = {particalOpt}
+        />
       </div>
       <div className="Nav-bar">
         <AnchorLink href="#About_Me" className="Nav-item hvr-shrink">About Me</AnchorLink>
