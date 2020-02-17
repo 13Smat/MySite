@@ -8,7 +8,7 @@ import Particles from 'react-particles-js';
 const particalOpt = {
   particles:{
     number:{
-      value: 100,
+      value: 150,
       density: {
         enable: true,
         value_area: 800
@@ -25,8 +25,8 @@ const particalOpt = {
     }
   }
 }
+
 function App() {
-  
   return (
     <div className="App">
       <div className="background">
