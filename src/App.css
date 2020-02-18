@@ -53,21 +53,33 @@ section a {
 }
 
 .Nav-bar{
-  margin: 1em;
   background-color: white;
   width: 100%;
   position: fixed;
   overflow: hidden;
-  transition: margin .2s;
-}
-
-.Nav-bar.navbar--scrolled{
-  margin: 0;
+  transition: 1s;
 }
 
 .Nav-item:hover{
   background-color: black;
   color: white;
+}
+
+.scrolled{
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.item-scrolled{
+  padding: .5em;
+  color: black;
+  font-size: .5em;
+  background-color: white;
+  text-align: center;
+  font-size: medium;
+  font-weight: 200;
+  top: 0;
 }
 
 .App-footer {
