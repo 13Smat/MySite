@@ -3,28 +3,17 @@
   overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-  width: 90%;
-  padding: 2em;
+  width: 80%;
+  padding: 1.75em;
+  text-align: center;
 }
 
 section {
@@ -35,51 +24,11 @@ section {
   min-height: 75vh;
   border: 4em solid transparent;
   width: 80%;
+  font-family: Tahoma, sans-serif;
 }
 
 section a {
   color: #aaaaaa;
-}
-
-.Nav-item{
-  padding: 1em;
-  color: black;
-  font-size: 1em;
-  background-color: white;
-  text-align: center;
-  font-size: large;
-  font-weight: 2000;
-  top: 0;
-}
-
-.Nav-bar{
-  background-color: white;
-  width: 100%;
-  position: fixed;
-  overflow: hidden;
-  transition: 1s;
-}
-
-.Nav-item:hover{
-  background-color: black;
-  color: white;
-}
-
-.scrolled{
-  background-color: white;
-  position: fixed;
-  width: 100%;
-}
-
-.item-scrolled{
-  padding: .5em;
-  color: black;
-  font-size: .5em;
-  background-color: white;
-  text-align: center;
-  font-size: medium;
-  font-weight: 200;
-  top: 0;
 }
 
 .App-footer {
@@ -88,6 +37,7 @@ section a {
   padding: 2em;
   text-align: center;
   font-weight: 30;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .hvr-shrink {

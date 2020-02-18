@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 import ScrollToTop from "./ScrollToTop";
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Particles from 'react-particles-js';
+import Nav from './components/Nav';
 
 
 const particalOpt = {
@@ -35,34 +35,6 @@ class App extends Component {
     }
   }
 
-  componentDidMount() {
-    window.addEventListener('scroll', () =>{
-      const isTop = window.scrollY > 100;
-      const nav = document.getElementById('nav');
-      const navItem = document.getElementById('nav-item');
-      const navItem2 = document.getElementById('nav-item2');
-      const navItem3 = document.getElementById('nav-item3');
-      const navHome = document.getElementById('nav-home');
-      if (isTop){
-        nav.classList.add('scrolled');
-        navItem.classList.add("item-scrolled");
-        navItem2.classList.add("item-scrolled");
-        navItem3.classList.add("item-scrolled");
-        navHome.classList.add("item-scrolled");
-      } else {
-        nav.classList.remove('scrolled');
-        navItem.classList.remove("item-scrolled");
-        navItem2.classList.remove("item-scrolled");
-        navItem3.classList.remove("item-scrolled");
-        navHome.classList.remove("item-scrolled");
-      }
-    });
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll');
-  }
-
   render() {
       return (
         <div className="App">
@@ -71,12 +43,7 @@ class App extends Component {
             params = {particalOpt}
             />
           </div>
-          <div id='nav' className='Nav-bar'>
-            <AnchorLink href="#Home" id="nav-home" className="Nav-item hvr-shrink">Home</AnchorLink>
-            <AnchorLink href="#About_Me" id="nav-item" className="Nav-item hvr-shrink">About Me</AnchorLink>
-            <AnchorLink href="#Recent_Work" id="nav-item2" className="Nav-item hvr-shrink">Work History</AnchorLink>
-            <AnchorLink href="#Contact_Info" id="nav-item3" className="Nav-item hvr-shrink">Contact Info</AnchorLink>
-          </div>
+          <Nav />
           <section id="Home">
           <header className="App-header">
             <h1>Full Stack Developer located in Morganton, NC</h1>
