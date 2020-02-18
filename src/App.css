@@ -4,14 +4,14 @@
 }
 
 .App-header {
-  display: flex;
+  display: block;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 1.5em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-  width: 80%;
+  width: auto;
   padding: 1.75em;
   text-align: center;
 }
@@ -32,7 +32,7 @@ section a {
 }
 
 .App-footer {
-  color: black;
+  color: white;
   font-size: 2em;
   padding: 2em;
   text-align: center;
@@ -86,20 +86,28 @@ section a {
   background: linear-gradient(190deg, rgba(13,17,68,1) 0%, rgba(5,6,13,1) 100%);
 }
 
-.background span {
-  width: 1vmin;
-  height: 1vmin;
-  border-radius: 1vmin;
-  backface-visibility: hidden;
-  position: absolute;
-  animation: move;
-  animation-duration: 30;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
 @media (max-width: 767px){
   section{
     font-size: .9em;
+    padding: .5em;
+    border: 2em solid transparent;
+  }
+
+  .App-header{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    width: auto;
+    padding: 1.75em;
+    text-align: center;
+  }
+
+  .background{
+    height: 100%;
+    width: 100%;
   }
 }

@@ -15,7 +15,8 @@ export default ScrollToTop;
 
 
 const Button = styled.button`
-  color: white;
-  background-color: black;
-  border-color: pink;
+  color: black;
+  background-color: white;
+  border-color: rgba(13,17,68,1) ;
+  font-size: .2em;
 `;
