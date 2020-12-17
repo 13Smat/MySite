@@ -4,7 +4,6 @@ import ScrollToTop from "./ScrollToTop";
 import Particles from 'react-particles-js';
 import Nav from './components/Nav';
 
-
 const particalOpt = {
   particles:{
     number:{
@@ -54,24 +53,22 @@ class App extends Component {
             <h3 class="panel">About Me</h3>
             <p>
               I am a{" "}
-              <strong>Western Carolina University Computer Science Graduate</strong>{" "}
-              currently working at <a href="https://vannoppen.co">VanNoppen Marketing</a> as a{" "}
-              <strong>full stack developer</strong>. I create and assist in creating
-              complex <strong>custom software applications</strong> for our clients
-              website. I spend my free time doing small projects like this one so I
-              can continue to expand my knowledge. I also have experience
-              developing in
-              <strong> Python, Java, JavaScript, CSS, GO, bash scripting, HTML, and PosgreSQL. </strong>
-              I do work as a freelance SquareSpace developer so
-              if you want to get in contact with me my email is down below.
+              <strong>Western Carolina University Computer Science Graduate</strong>{" "}.
+              I have full stack web development experience working for <a href="https://vannoppen.co">VanNoppen Marketing</a>. 
+              Due to COVID-19 I have been doing freelance work since March of 2020.
+              During my time with VanNoppen I created and assisted in creating complex <strong>custom software applications</strong> for our clients
+              websites. I spend my free time doing small projects like this one so I
+              can continue to expand my knowledge. I also have experience developing in
+              Python, Java, JavaScript, CSS, GO, bash scripting, HTML, and PosgreSQL along with a few other languages.
+              I do still work as a freelance SquareSpace developer so if you want to get in contact with me my email is down below.
             </p>
           </section>
           <section id="Recent_Work">
             <h2>Recent Work Experience</h2>
             <p>
-              I currently work at{" "}
+              I worked at{" "}
               <a href="https://vannoppen.co">VanNoppen Marketing</a> as a full stack
-              web developer. 
+              web developer from July 2019 until April of 2020. 
             </p>
             <p>
               Before that I worked as a table games dealer, specifically blackjack, at
@@ -92,6 +89,7 @@ class App extends Component {
             <p>
               My GitHub is <a href="https://github.com/13Smat">https://github.com/13Smat</a>.
             </p>
+            <p>For a PDF copy of my resume <a href='./Resume.pdf' download>click here</a>.</p>
             <footer className="App-footer">
             <ScrollToTop />
           </footer>
