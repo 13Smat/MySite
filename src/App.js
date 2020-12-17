@@ -42,7 +42,7 @@ class App extends Component {
             params = {particalOpt}
             />
           </div>
-          <Nav />
+          <nav><Nav /></nav>
           <section id="Home">
           <header className="App-header">
             <h1>Full Stack Developer located in Morganton, NC</h1>
