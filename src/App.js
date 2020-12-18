@@ -38,9 +38,9 @@ class App extends Component {
       return (
         <div className="App">
           <div className="background">
-            <Particles 
-            params = {particalOpt}
-            />
+              <Particles 
+              params = {particalOpt}
+              className="background"/>
           </div>
           <nav><Nav /></nav>
           <section id="Home">
@@ -68,10 +68,10 @@ class App extends Component {
             <p>
               I worked at{" "}
               <a href="https://vannoppen.co">VanNoppen Marketing</a> as a full stack
-              web developer from July 2019 until April of 2020. 
+              web developer from July, 2019 until April, 2020. 
             </p>
             <p>
-              Before that I worked as a table games dealer, specifically blackjack, at
+              Before that, I worked as a table games dealer, specifically blackjack, at
               the{" "}
               <a href="https://www.caesars.com/harrahs-cherokee">
                 Harrah's Cherokee Casino
