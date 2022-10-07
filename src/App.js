@@ -60,7 +60,7 @@ class App extends Component {
               websites. I spend my free time doing small projects like this one so I
               can continue to expand my knowledge. I also have experience developing in
               Python, Java, JavaScript, CSS, GO, bash scripting, HTML, and PosgreSQL along with a few other languages.
-              I do still work as a freelance SquareSpace developer so if you want to get in contact with me, my email is down below.
+              I currently work for <strong> Lowe's Companies Inc </strong> as a <strong> Software Engineer </strong>.
             </p>
           </section>
           <section id="Recent_Work">
